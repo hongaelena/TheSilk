@@ -1,0 +1,60 @@
+footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 29px;
+
+    p {
+        font-family: 'Zen Kaku Gothic Antique';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        color: #B5B5B5;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 48px;
+    }
+}
+
+footer img.logo-ft {
+    width: 433px;
+    position: absolute;
+    top: -104px;
+    left: 390px;
+}
+
+footer img.logo-right-ft {
+    width: 199px;
+    position: absolute;
+    right: 215px;
+    top: -65px;
+}
+
+.list-ft {
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    padding-top: 72px;
+    padding-bottom: 56px;
+
+    a {
+        width: 250px;
+        height: 150px;
+        background: #BDAD97;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        font-family: 'Zen Kaku Gothic Antique';
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 41px;
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        justify-content: center;
+    }
+}

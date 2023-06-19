@@ -1,0 +1,134 @@
+@media only screen and (max-width: 680px) {
+    .banner {
+        .banner-text {
+            top: -50px;
+            width: 70%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .banner-entry {
+            width: 23vw;
+            height: 23vw;
+        }
+
+        .banner-entry {
+            h2 {
+                font-size: 4.5vw;
+                line-height: 6vw;
+            }
+        }
+
+        .banner-content {
+            font-size: 3.6vw;
+            line-height: 5vw;
+        }
+
+        h1 {
+            font-size: 5.4vw;
+            line-height: 7vw;
+        }
+    }
+
+    .container-box {
+        .box-item {
+            .container {
+                gap: 0;
+
+                .box-left {
+                    padding-left: 20px;
+                }
+
+                .box-right {
+                    padding-right: 20px;
+
+                    a {
+                        width: 80%;
+                        height: auto;
+                        line-height: 7.5vw;
+                        font-size: 3.6vw;
+                        margin-top: -40px;
+                    }
+
+                    .box-right-text {
+                        font-size: 3.5vw;
+                        line-height: 6vw;
+                    }
+
+                    h2 {
+                        font-size: 4vw;
+                        line-height: 5vw;
+                    }
+                }
+            }
+
+            &.section-3 {
+                margin-bottom: 95px;
+
+                .bg-white {
+                    height: 235px;
+                }
+
+                .container {
+                    .box-right {
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            &.section-4 {
+                .bg-white {
+                    height: 153px;
+                }
+
+                .container {
+                    .box-right {
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            &.section-2 {
+                .bg-white {
+                    height: 153px;
+                }
+
+                padding-bottom: 10px;
+
+                .container {
+                    .box-right {
+                        a {
+                            margin-top: 95px;
+                        }
+
+                        .title-section-3 {
+                            h2 {
+                                margin-top: -20px;
+                                font-size: 4vw;
+                                line-height: 5vw;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.section-1 {
+                .bg-white {
+                    height: 153px;
+                }
+
+                padding-bottom: 90px;
+
+                .container {
+                    .box-right {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    footer img.logo-right-ft {
+        top: 20px;
+    }
+}
